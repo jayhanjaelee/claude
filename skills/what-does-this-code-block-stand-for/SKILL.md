@@ -1,11 +1,13 @@
 ---
-name: what_does_thiscodeblock_standfor
-description: 주어진 코드 묶음에 대해 함수나 변수명에서 축약된 의미가 있다면 설명.
-argument-hint: [code-block]
+name: what-does-this-code-block-standfor
+description:  주어진 코드 묶음에 대해 함수나 변수명에서 축약된 의미가 있다면 설명.
+argument-hint: [Programming Language]
+model: haiku
 ---
 
-## $code_block 에 대해 처리해야할 내용 목록.
+## 프로그래밍 언어 $0 에 대해 처리해야할 내용 목록.
 
+1. 프로그래밍 언어 $0 에 대한 컨텍스트를 유지.
 1. **함수, 변수의 줄임말 설명**: 예를들어 C언어 함수 getc 의 c 는 character 를 의미한다라는 식의 부연설명 주석으로 추가.
 
 ## 출력 형식

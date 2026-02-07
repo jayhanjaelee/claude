@@ -2,6 +2,7 @@
 name: cmake-builder
 description: cmake syntax checker
 argument-hint: [directory]
+model: sonnet
 ---
 
 - $0 에 위치한 CMakeLists.txt 파일 탐색.
